@@ -23,7 +23,7 @@ if (age >= 18) {
 
 age = 12
 
-if (age2 >= 18) {
+if (age >= 18) {
     console.log("Eres mayor de edad");
 } else {
     console.log("Eres menor de edad");
@@ -143,16 +143,15 @@ const programmers = [
 ]
 
 for (let i in programmers) {
-    console.log(programmers[i].name + ' ' + programmers[i].lastname + ', su aporte fue ' + programmers[i].knowledge);
+    console.log(i + ': ' + programmers[i].name + ' ' + programmers[i].lastname + ', su aporte fue ' + programmers[i].knowledge);
 }
-
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
 const names = ['Carla', 'Alex', 'Judith', 'Maria', 'Noelia']
 
 for (const name of names) {
-    console.log("Hola, mi nombre es " + name);
+    // console.log("Hola, mi nombre es " + name);
 
 }
 
